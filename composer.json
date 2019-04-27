@@ -1,0 +1,28 @@
+{
+    "name": "mortendhansen/eloquent-docblock-generator",
+    "description": "Generates docblock for the properties of eloquent models based on the table columns",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morten D. Hansen",
+            "email": "morten@visia.dk"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "MortenDHansen\\EloquentDockblockGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MortenDHansen\\EloquentDockblockGenerator\\tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    }
+}
